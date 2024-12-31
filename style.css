@@ -110,3 +110,38 @@ ul {
     height: 150px;
     width: 150px;
 }
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    margin-top: 10%;
+    flex-direction: column;
+    margin-left: -8px;
+    margin-right: -8px;
+    gap: 0px;
+}
+
+.actual-quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+    margin-top: 10%;
+    max-width: 900px;
+    align-self: center;
+}
+
+.author-container {
+    display: flex;
+    width: 900px;
+    justify-content: end;
+    align-self: center;
+}
+
+.author {
+    font-size: 26px;
+    color: #1F2937;
+    font-weight: bold;
+    margin-top: -40px;
+    margin-right: 100px
+}
