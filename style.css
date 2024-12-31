@@ -7,6 +7,13 @@ ul {
     list-style-type: none;
 }
 
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    margin: -8px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -29,4 +36,77 @@ ul {
     gap: 20px;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.main {
+    display: flex;
+    background-color: #1F2937;
+    min-height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.text {
+    justify-content: center;
+    margin: 50px;
+}
+
+.heading {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.heading-subtext {
+    margin-top: -30px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    border-radius: 8px;
+    background-color: #3882F6;
+    border: none;
+    padding: 5px 30px;
+}
+
+.image p {
+    background-color: gray;
+    padding: 100px 100px;
+    margin: 50px;
+}
+
+.info-container .title {
+    color: #1F2937;
+    text-align: center;
+    margin: 5%;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    flex-shrink: 0;
+}
+
+.boxes {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 150px;
+}
+
+.boxes p {
+    color: #1F2937;
+    text-align: center;
+}
+
+.square {
+    outline: 7px solid rgb(59, 62, 255);
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
 }
