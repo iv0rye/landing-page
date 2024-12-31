@@ -78,7 +78,7 @@ ul {
 .info-container .title {
     color: #1F2937;
     text-align: center;
-    margin: 5%;
+    margin: 50px;
     font-size: 36px;
     font-weight: 900;
 }
@@ -114,11 +114,10 @@ ul {
 .quote {
     display: flex;
     background-color: #E5E7EB;
-    margin-top: 10%;
+    margin: 10px -8px;
     flex-direction: column;
-    margin-left: -8px;
-    margin-right: -8px;
     gap: 0px;
+    padding-bottom: 10%;
 }
 
 .actual-quote {
@@ -126,7 +125,7 @@ ul {
     font-size: 36px;
     color: #1F2937;
     font-weight: 100;
-    margin-top: 10%;
+    margin-top: 100px;
     max-width: 900px;
     align-self: center;
 }
@@ -144,4 +143,40 @@ ul {
     font-weight: bold;
     margin-top: -40px;
     margin-right: 100px
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cta {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 0px 50px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin: 50px 50px;
+    flex-grow: 0.5;
+}
+
+.cta .heading {
+    font-size: 24px;
+}
+
+.cta .subtext {
+    font-weight: lighter;
+    margin-top: -20px
+}
+
+.cta .button {
+    align-self: center;
+}
+
+.cta button {
+    background-color: #3882F6;
+    border-radius: 6px;
+    border: solid white;
+    padding: 5px 40px;
 }
