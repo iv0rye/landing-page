@@ -89,6 +89,7 @@ ul {
     flex-wrap: wrap;
     gap: 50px;
     flex-shrink: 0;
+    margin-bottom: 50px;
 }
 
 .boxes {
@@ -117,7 +118,7 @@ ul {
     margin: 10px -8px;
     flex-direction: column;
     gap: 0px;
-    padding-bottom: 10%;
+    padding-bottom: 70px;
 }
 
 .actual-quote {
@@ -179,4 +180,11 @@ ul {
     border-radius: 6px;
     border: solid white;
     padding: 5px 40px;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 20px;
+    margin: -08px -8px;
+    text-align: center;
 }
